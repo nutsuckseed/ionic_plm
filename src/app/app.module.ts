@@ -13,6 +13,8 @@ import { ContactusPage } from '../pages/contactus/contactus';
 import { PrivatemessagePage } from '../pages/privatemessage/privatemessage';
 import { LoginPage } from '../pages/login/login';
 import { BannerPage } from '../pages/banner/banner';
+import { NewsPage } from '../pages/news/news';
+import { DocumentsPage } from '../pages/documents/documents';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -31,7 +33,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactusPage,
     PrivatemessagePage,
     LoginPage,
-    BannerPage
+    BannerPage,
+    NewsPage,
+    DocumentsPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +54,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactusPage,
     PrivatemessagePage,
     LoginPage,
-    BannerPage
+    BannerPage,
+    NewsPage,
+    DocumentsPage
   ],
   providers: [
     StatusBar,

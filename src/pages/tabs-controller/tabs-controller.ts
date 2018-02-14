@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ELearningPage } from '../e-learning/e-learning';
 import { CoursePage } from '../course/course';
+import { ELearningPage } from '../e-learning/e-learning';
 import { ContactPage } from '../contact/contact';
 
 @Component({
@@ -10,8 +10,8 @@ import { ContactPage } from '../contact/contact';
 })
 export class TabsControllerPage {
 
-  tab1Root: any = ELearningPage;
-  tab2Root: any = CoursePage;
+  tab1Root: any = CoursePage;
+  tab2Root: any = ELearningPage;
   tab3Root: any = ContactPage;
   constructor(public navCtrl: NavController) {
   }

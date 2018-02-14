@@ -4,6 +4,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { ELearningPage } from '../pages/e-learning/e-learning';
+import { BannerPage } from '../pages/banner/banner';
+import { NewsPage } from '../pages/news/news';
+import { DocumentsPage } from '../pages/documents/documents';
 import { CoursePage } from '../pages/course/course';
 import { AboutPage } from '../pages/about/about';
 import { UsabilityPage } from '../pages/usability/usability';
@@ -33,6 +36,15 @@ export class MyApp {
   goToELearning(params){
     if (!params) params = {};
     this.navCtrl.setRoot(ELearningPage);
+  }goToBanner(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(BannerPage);
+  }goToNews(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(NewsPage);
+  }goToDocuments(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(DocumentsPage);
   }goToCourse(params){
     if (!params) params = {};
     this.navCtrl.setRoot(CoursePage);
